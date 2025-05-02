@@ -1,68 +1,3 @@
-# # This is single line comment 
-
-# """This is a multi-line
-# comment"""
-# a = 10
-
-# # displaying data at console
-# print("hello world")
-
-# # Variables and Data Types
-
-
-# a = "Dipesh" # string
-# b = 10 #integer 
-# c = 20.5 # float
-# d = True # boolean
-
-# print(a)
-
-# # String concatenation
-# print("hello" + "world")
-
-# # operators
-# # + , - , * , / , % , ** , // --> Arithmetic operators
-# # == , != , > , < , >= , <= --> Comparison operators
-# # and , or , not --> Logical operators
-# # Assignment operators
-
-# # = , += , -= , *= , /= , %= , **= , //=
-
-# print(10 + 20) # addition
-# print(10 - 20) # subtraction
-# print(10 * 20) # multiplication
-# print(10 / 20) # division
-# print(2**2)
-
-# print(10 % 3) # modulus
-# print(10 // 3) # floor division
-
-# # Comparison operators
-# print(10 == 10) # equal to
-# print(10 != 10) # not equal to
-# print(10 > 10) # greater than
-# print(10 < 10) # less than
-# print(10 >= 10) # greater than or equal to
-# print(10 <= 10) # less than or equal to
-
-# User input 
-# name = input("Enter your name:")
-# print(name)
-
-
-# Band Name Generator 
-# name = input("Enter Name:")
-# word = input("Enter some random word:")
-
-# print(name + word)
-
-
-# a = int(input("Enter 1st number:"))
-# b = int(input("Enter 2nd number:"))
-#
-# print(a+b)
-
-
 # Variable --> container that holds certain value of any type
 # Data types --> the type of data that a variable holds
 
@@ -149,6 +84,8 @@ a = 4 # assignment operator
 
 a += 1 #short-hand operator(+=,-=,*=,/=)
 a = a + 1
+
+
 
 
 

@@ -64,18 +64,29 @@
 # import package_name
 # from package_name import function of package
 
-import random as r
-# from random import randint
+# import random as r
+# # from random import randint
+#
+# # Number guessing game
+# computer_choice = r.randint(1,50)
+# user_input = int(input("Guess any number between 1 - 50:"))
+#
+# if user_input == computer_choice:
+#     print("You win")
+# else:
+#     print("You Lose!!PLease try again")
 
-# Number guessing game
-computer_choice = r.randint(1,50)
-user_input = int(input("Guess any number between 1 - 50:"))
+# Python for and while loop
+# range(start, end)
+# for i in range(1, 11):
+#     print(i)
 
-if user_input == computer_choice:
-    print("You win")
-else:
-    print("You Lose!!PLease try again")
+# while cond:
+    # //statement
 
+# i = 0
+# while i < 10:
+#     print(i)
 
 print("""=============================================Exercise===================================================""")
 # Check if score is 90 or above
@@ -123,26 +134,29 @@ print("""=============================================Exercise==================
 # BMI calculator
 # Ask user for weight in kilograms and convert it to float
 
-# weight = float(input("Enter your weight in kg: "))
-#
-# # Ask user for height in meters and convert it to float
-# height = float(input("Enter your height in meters: "))
-#
-# # Calculate BMI using the standard formula
-# bmi = weight / (height ** 2)
-#
-# # Display BMI rounded to 2 decimal places
-# print(f"Your BMI is: {bmi:.2f}")
-#
-# # Interpret BMI based on standard classification
-# if bmi < 18.5:
-#     print("You are underweight.")
-# elif 18.5 <= bmi < 24.9:
-#     print("You have a normal weight.")
-# elif 25 <= bmi < 29.9:
-#     print("You are overweight.")
-# else:
-#     print("You are obese.")
+weight = float(input("Enter your weight in kg: "))
+
+# Ask user for height in meters and convert it to float
+height = float(input("Enter your height in meters: "))
+
+# Calculate BMI using the standard formula
+bmi = weight / (height ** 2)
+
+# Display BMI rounded to 2 decimal places
+print(f"Your BMI is: {bmi:.2f}")
+
+# Interpret BMI based on standard classification
+if bmi < 18.5:
+    global demo
+    print("You are underweight.")
+elif 18.5 <= bmi < 24.9:
+    print("You have a normal weight.")
+elif 25 <= bmi < 29.9:
+    print("You are overweight.")
+else:
+    print("You are obese.")
+
+
 
 
 
