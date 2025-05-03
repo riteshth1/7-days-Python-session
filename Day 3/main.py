@@ -29,51 +29,51 @@
 # Check(number)
 
 # list
-a = [1,2,4,8,"Risan", "Rosa", "Rachana", 4.58, 'Bikesh', "bidhan"]
-
-# print(a[10])
-# loop in list
-# for i in a:
-#     print(i)
-
-# # Add item to list
-# a.append(["Isha",'krishna'])
-# print(a[10][1])
-# a.remove()
-# a.pop()
+# a = [1,2,4,8,"Risan", "Rosa", "Rachana", 4.58, 'Bikesh', "bidhan"]
 #
-# print(a)
-
-# Dictionary
-# bhandar = {
-#     'a':'A',
-#     'b' : 'B',
-#     'c' : 'C'
+# # print(a[10])
+# # loop in list
+# # for i in a:
+# #     print(i)
+#
+# # # Add item to list
+# # a.append(["Isha",'krishna'])
+# # print(a[10][1])
+# # a.remove()
+# # a.pop()
+# #
+# # print(a)
+#
+# # Dictionary
+# # bhandar = {
+# #     'a':'A',
+# #     'b' : 'B',
+# #     'c' : 'C'
+# # }
+# #
+# # # Access element of dictionary
+# # print(bhandar['c'])
+# #
+# # # Update the value
+# # bhandar['c'] = "Ritesh"
+# #
+# # print(bhandar)
+# #
+# # # Iteration in dictionary
+# # for key in bhandar:
+# #     print(bhandar[key])
+#
+# # dictionary of list
+# a = {
+#     'name' : ['risan', 'bikesh'],
+#     'address': ['htd', 'butwal']
 # }
 #
-# # Access element of dictionary
-# print(bhandar['c'])
-#
-# # Update the value
-# bhandar['c'] = "Ritesh"
-#
-# print(bhandar)
-#
-# # Iteration in dictionary
-# for key in bhandar:
-#     print(bhandar[key])
-
-# dictionary of list
-a = {
-    'name' : ['risan', 'bikesh'],
-    'address': ['htd', 'butwal']
-}
-
-# list of dictionary
-b = [
-    {'name': 'ritesh'},
-    {'address': "Htd"}
-]
+# # list of dictionary
+# b = [
+#     {'name': 'ritesh'},
+#     {'address': "Htd"}
+# ]
 
 
 
