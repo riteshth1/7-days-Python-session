@@ -76,6 +76,39 @@
 # ]
 
 
+from random import randint
+
+# computer choice : 0 (rock), 1 (paper), or 2 (scissors)
+choice = randint(0, 2)
+
+num = int(input("Enter your choice: 0 for rock 🪨, 1 for paper 📃, 2 for scissors ✂: "))
+
+if num < 0 or num > 2:
+    print("Enter a valid choice idiot 🤨")
+else:
+    if num == 0:
+        print("Your choice is rock 🪨\nNow it's your opponent's turn...")
+    elif num == 1:
+        print("Your choice is paper 📃\nNow it's your opponent's turn...")
+    elif num == 2:
+        print("Your choice is scissors ✂\nNow it's your opponent's turn...")
+
+    # Show opponent's choice
+    if choice == 0:
+        print("Opponent chose rock 🪨")
+    elif choice == 1:
+        print("Opponent chose paper 📃")
+    elif choice == 2:
+        print("Opponent chose scissors ✂")
+
+    # Determine the result
+    if num == choice:
+        print("It's a draw 🤝")
+    elif num == 0 and choice == 2 or num == 1 and choice == 0 or num == 2 and choice == 1:
+        print("Congratulations... You won 🏆")
+    else:
+        print("You lost 😓")
+
 
 
 
